@@ -1,0 +1,14 @@
+2025-03-14 20:40:50,182 - INFO: Constructing RhoFold
+2025-03-14 20:40:51,221 - INFO:     loading ./pretrained/model_20221010_params.pt
+2025-03-14 20:40:51,743 - INFO: Input_fas /media/hp/c30d34ed-0d55-4077-82dc-b56cd13dd548/2025/kaggle/stanford-rna-3d-folding/result/rhofold_00/1EIY_C.fasta
+2025-03-14 20:40:51,743 - INFO: Input_a3m /media/hp/c30d34ed-0d55-4077-82dc-b56cd13dd548/2025/kaggle/stanford-rna-3d-folding/result/rhofold_00/1EIY_C.a3m
+2025-03-14 20:40:51,743 - INFO: Started RhoFold Inference
+2025-03-14 20:40:51,755 - INFO:     Inference using device cuda
+2025-03-14 20:40:54,523 - INFO:     Export PDB file to /media/hp/c30d34ed-0d55-4077-82dc-b56cd13dd548/2025/kaggle/stanford-rna-3d-folding/result/rhofold_00//unrelaxed_model.pdb
+2025-03-14 20:40:54,523 - INFO: Finished RhoFold Inference in 2.780 seconds
+2025-03-14 20:40:54,523 - INFO: Started Amber Relaxation : 1000 iterations
+2025-03-14 20:40:54,523 - INFO:     AmberRelaxation: Using OpenCL
+2025-03-14 20:41:09,410 - INFO:     Minimizing ...
+2025-03-14 20:42:38,203 - INFO:     Energy at Minima is -505932.780 kcal/mol
+2025-03-14 20:42:38,362 - INFO:     Export PDB file to /media/hp/c30d34ed-0d55-4077-82dc-b56cd13dd548/2025/kaggle/stanford-rna-3d-folding/result/rhofold_00//relaxed_1000_model.pdb
+2025-03-14 20:42:38,363 - INFO: Finished Amber Relaxation : 1000 iterations in 103.840 seconds
