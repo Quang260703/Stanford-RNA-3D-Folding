@@ -1,11 +1,14 @@
-2025-05-17 22:09:38,101 - INFO: Constructing RhoFold
-2025-05-17 22:09:39,050 - INFO:     loading ./pretrained/model_20221010_params.pt
-2025-05-17 22:09:39,700 - INFO: Input_fas d:\ML\Stanford-RNA-3D-Folding\kaggle\working\1EIY_C.fasta
-2025-05-17 22:09:39,700 - INFO: Input_a3m d:\ML\Stanford-RNA-3D-Folding\kaggle\working\1EIY_C.a3m
-2025-05-17 22:09:39,700 - INFO: Started RhoFold Inference
-2025-05-17 22:09:40,083 - INFO:     Inference using device cuda
-2025-05-17 22:10:01,214 - INFO:     Export PDB file to d:\ML\Stanford-RNA-3D-Folding\kaggle\working/unrelaxed_model.pdb
-2025-05-17 22:10:01,214 - INFO: Finished RhoFold Inference in 21.514 seconds
-2025-05-17 22:10:01,214 - INFO: Started Amber Relaxation : 1000 iterations
-2025-05-17 22:10:01,214 - INFO:     AmberRelaxation: Using OpenCL
-2025-05-17 22:11:27,975 - INFO:     Minimizing ...
+2025-05-18 11:43:59,366 - INFO: Constructing RhoFold
+2025-05-18 11:44:00,320 - INFO:     loading ./pretrained/model_20221010_params.pt
+2025-05-18 11:44:00,986 - INFO: Input_fas d:\ML\Stanford-RNA-3D-Folding\kaggle\working\1A1T_B.fasta
+2025-05-18 11:44:00,986 - INFO: Input_a3m d:\ML\Stanford-RNA-3D-Folding\kaggle\working\1A1T_B.a3m
+2025-05-18 11:44:00,986 - INFO: Started RhoFold Inference
+2025-05-18 11:44:01,375 - INFO:     Inference using device cuda
+2025-05-18 11:44:05,725 - INFO:     Export PDB file to d:\ML\Stanford-RNA-3D-Folding\kaggle\working/unrelaxed_model.pdb
+2025-05-18 11:44:05,725 - INFO: Finished RhoFold Inference in 4.738 seconds
+2025-05-18 11:44:05,725 - INFO: Started Amber Relaxation : 1000 iterations
+2025-05-18 11:44:05,725 - INFO:     AmberRelaxation: Using OpenCL
+2025-05-18 11:44:14,737 - INFO:     Minimizing ...
+2025-05-18 11:45:43,685 - INFO:     Energy at Minima is -63072.528 kcal/mol
+2025-05-18 11:45:43,725 - INFO:     Export PDB file to d:\ML\Stanford-RNA-3D-Folding\kaggle\working/relaxed_1000_model.pdb
+2025-05-18 11:45:43,725 - INFO: Finished Amber Relaxation : 1000 iterations in 98.000 seconds
